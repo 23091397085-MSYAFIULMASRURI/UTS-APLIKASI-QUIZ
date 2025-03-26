@@ -36,7 +36,7 @@ class _SplashScreenState extends State<SplashScreen> {
             SizedBox(height: 20),
             // Animasi loading
             CircularProgressIndicator(
-              color: Colors.blue, // Warna loading putih
+              color: Colors.white, // Warna loading putih
             ),
           ],
         ),
