@@ -1,4 +1,4 @@
-// ✅ ENCAPSULATION: Model untuk menyimpan pertanyaan quiz
+// ENCAPSULATION: Model untuk menyimpan pertanyaan quiz
 class QuizModel {
   final String question;
   final List<String> options;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-// ✅ INHERITANCE: Class dasar untuk pertanyaan
+// INHERITANCE: Class dasar untuk pertanyaan
 abstract class QuestionWidget extends StatelessWidget {
   final String text;
 
@@ -10,7 +10,7 @@ abstract class QuestionWidget extends StatelessWidget {
   Widget build(BuildContext context);
 }
 
-// ✅ POLYMORPHISM: Menampilkan pertanyaan dalam bentuk teks
+// POLYMORPHISM: Menampilkan pertanyaan dalam bentuk teks
 class TextQuestionWidget extends QuestionWidget {
   TextQuestionWidget({required String text}) : super(text: text);
 
